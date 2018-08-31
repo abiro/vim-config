@@ -24,5 +24,6 @@ else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>79v.\+', -1)
 endif
 
-set guifont=Source\ Code\ Pro\ Light:h12
+set guifont=Source\ Code\ Pro\ 12
 set guioptions-=rL
+set belloff=all
