@@ -13,6 +13,7 @@ nnoremap <F3> :set hlsearch!<CR>
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 map <C-n> :NERDTreeToggle<CR>
+vnoremap // y/<C-R>"<CR>
 set backspace=indent,eol,start
 
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
